@@ -1,0 +1,271 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Habitat Loss</title>
+        <style>
+            *
+            {
+                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                margin: 0px;
+                padding: 0px;
+                color:white;
+            }
+            body {
+                background-color:#626262
+            }
+            #websiteTitle
+            {
+                color: white;
+                position: absolute;
+                top: 200px;
+                left: 40px;
+                font-size: 100px
+            }
+            #websiteDesc
+            {
+                color: white;
+                position: absolute;
+                top: 300px;
+                left: 44px;
+                font-size: 40px
+            }
+            #exploreNow
+            {
+                color: white;
+                position: absolute;
+                top: 365px;
+                left: 44px;
+                font-size: 20px;
+                padding-top: 20px;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-bottom: 20px;
+                border-radius: 10px;
+                border: none;
+                letter-spacing: 5px;
+                background-image: linear-gradient(#0d6aa0, #118cd3);
+                text-decoration:none;
+            }
+            #exploreNow:hover
+            {
+                background-image: linear-gradient(#0d6aa0, #0a4364);
+            }
+            #landscape1
+            {   
+                filter:brightness(70%);
+                
+            }
+
+            #navbar
+            {
+                position:relative;
+                background-color:rgb(73, 209, 80);
+                font-size: 24px;
+                height: 63px;
+                padding-top: 45px;
+                padding-bottom: 10px;
+                margin-top: -10px;
+                bottom: 40px;
+                
+
+
+            }
+
+            #navbar a
+            {
+                color: rgb(0, 0, 0);
+                padding-right: 10px;
+                text-decoration: none;
+                padding-top: 45px;
+                padding-bottom: 44px;
+                padding-left: 20px;
+                
+                
+            }
+
+            #navbar a:hover 
+            {
+                background-color: rgb(153, 149, 149);
+            }
+
+            #imageGradient
+            {
+                position: absolute;
+                padding-right: 1440;
+                padding-top: 200;
+                top: 470px;
+                background-image: linear-gradient(#ffffff00, #ffffff);
+            }
+            #navbarBG
+            {
+                position: absolute;
+                padding-right: 1440;
+                padding-top: 118;
+                top: 670px;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0px 5px rgba(0, 0, 0, 0.139);
+            }
+
+            #aboutusButton
+            {
+                color: white;
+                position: absolute;
+                top: 687px;
+                right: 50px;
+                font-size: 20px;
+                padding-top: 30px;
+                padding-left: 25px;
+                padding-right: 25px;
+                padding-bottom: 30px;
+                border-radius: 10px;
+                background-color: green;
+                text-decoration: none;
+            }
+            #aboutusButton:hover
+            {
+                background-color: rgb(0, 83, 0);
+            }
+
+            #faqButton
+            {
+                color: white;
+                position: absolute;
+                top: 687px;
+                right: 200px;
+                font-size: 20px;
+                padding-top: 30px;
+                padding-left: 25px;
+                padding-right: 25px;
+                padding-bottom: 30px;
+                border-radius: 10px;
+                background-color: green;
+                text-decoration: none;
+            }
+            #faqButton:hover
+            {
+                background-color: rgb(0, 83, 0);
+            }
+
+            #homeButton
+            {
+                color: white;
+                position: absolute;
+                top: 687px;
+                right: 308px;
+                font-size: 20px;
+                padding-top: 30px;
+                padding-left: 25px;
+                padding-right: 25px;
+                padding-bottom: 30px;
+                border-radius: 10px;
+                background-color: green;
+                text-decoration: none;
+            }
+            #homeButton:hover
+            {
+                background-color: rgb(0, 83, 0);
+            }
+            #background
+            {
+                background-color:rgb(153, 149, 149)
+            }
+            #p1 
+            {
+                margin-right: 650px;
+                margin-left: 50px;
+            }
+            #h1-1
+            {
+                margin-left: 50px;
+            }
+            #deforestation1
+            {
+                position:absolute;
+                border-radius: 10px;
+                top: 850px;
+                left: 875px;
+            }
+            #graph1
+            {
+                position:absolute;
+                border-radius: 20px;
+                left: 875px;
+                top: 1225px;
+            }
+            #myBtn {
+                display: none;
+                position: fixed;
+                bottom: 15px;
+                right: 15px;
+                z-index: 99;
+                font-size: 18px;
+                border: none;
+                outline: none;
+                background-color: #118cd3;
+                color: white;
+                cursor: pointer;
+                padding: 15px;
+                border-radius: 4px;
+                }
+
+            #myBtn:hover {
+                background-color: #0a4364;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="background"></div>
+        <img src="landscape1.jpg" id="landscape1" height="720px" width="1440px">
+        <div id="websiteTitle">Habitat Loss</div>
+        <div id="websiteDesc">How you can help.</div>
+        <a href="#section1" id="exploreNow">Explore Now</a>
+        <div id="imageGradient"></div>
+        <div id="navbarBG"></div>
+        <a href="file:///Users/malcolm.lane/Desktop/Year%209%20Website/sdg15websiteSubpage2.html" id="aboutusButton">About Us</a>
+        <a href="file:///Users/malcolm.lane/Desktop/Year%209%20Website/sdg15websiteSubpage1.html" id="faqButton">FAQ</a>
+        <a href="file:///Users/malcolm.lane/Desktop/Year%209%20Website/sdg15website.html" id="homeButton">Home</a>
+        <br><br><br><br><br><br><br>
+        <div id="section1"> 
+        <h1 id="h1-1">What is habitat loss?</h1> <br>
+        <p id="p1">Habitat loss is a threat to animals that has been caused by humans either unintentionally or intentionally over the last 150 years. There are three main types of habitat loss called habitat destruction, habitat fragmentation and habitat degradation. <br><br> Habitat destruction is when the habitat changes and is deemed unusable through the use of machines and manual changes. Common examples include a bulldozer pushing down trees, filling in wetlands, dredging rivers and mowing fields. <br><br> Habitat fragmentation is when a habitat undergoes a change which will cut off certain routes for animals making it more difficult to find shelter and makes migration routes more confusing. Common examples of habitat fragmentation include roads, dams and water diversion. <br><br> Habitat degradation is when a new variable in an ecosystem becomes present but creates change over a long period of time. Common examples of this include the introduction of pollution or invasive species. <br><br> These three forms of habitat loss have resulted in over 1 million plant and animal species being threatened with extinction which has risen quite quickly in recent decades.</p>
+        <img src="deforestation 1.jpg" height="360px" width="480px" id="deforestation1"> <br>
+        <h1 id="h1-1">Why Should you care?</h1><br>
+        <p id="p1">Habitat loss affecting animals is also affecting you and everyone else around you. A great example of this is the bee. The bee is an essential part of the ecosystem helping with the growth of trees, flowers and other plants which can be considered food or shelter to the majority of animals. <br><br> Recently, the changes in our land due to insensitive farming, and urban growth has resulted in significant fragmentation in the land which has resulted in them needing to eat foods that are not the best for them. Flowers are also an essential resource to them which in the UK, 97% of them were lost leaving bees with little space to go. <br><br> Overall, animals such as bees are getting closer and closer to extinction all around the world and without them, it could restrict our use of valuable resources and result in a much poorer quality of life.  </p>
+        <iframe src="https://ourworldindata.org/grapher/global-land-use-since-10000bc" id="graph1" loading="lazy" style="width: 480px; height: 360px; border: 0px none;"></iframe>
+        <br><br><br> <br><br><br>
+        <p>_</p>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script>
+          $(document).ready(function(){
+            $("a").on('click', function(event) {
+              if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                  scrollTop: $(hash).offset().top
+                }, 800, function(){
+                  window.location.hash = hash;
+                });
+              }
+            });
+          });
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                mybutton.style.display = "block";
+                } else {
+                mybutton.style.display = "none";
+                }
+            }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+          </script>
+    </body>
+</html>
